@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'montoBrupo'
 	],
-	#category : #'OO1-TP-FINAL'
+	#category : #'OO1-TP-FINAL-Model'
 }
 
 { #category : #'instance creation' }

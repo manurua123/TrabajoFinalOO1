@@ -7,7 +7,7 @@ Class {
 		'telefono',
 		'legajo'
 	],
-	#category : #'OO1-TP-FINAL'
+	#category : #'OO1-TP-FINAL-Model'
 }
 
 { #category : #'instance creation' }

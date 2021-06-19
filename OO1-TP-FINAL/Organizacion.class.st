@@ -5,10 +5,19 @@ Class {
 		'denominacion',
 		'representante',
 		'direccion',
-		'grupoDonante'
+		'donadores'
 	],
-	#category : #'OO1-TP-FINAL'
+	#category : #'OO1-TP-FINAL-Model'
 }
+
+{ #category : #'instance creation' }
+Organizacion class >> new: unaDenominacion representante:unRepresentate direccion: unaDireccion [ 
+	^ self new
+		denominacion: unaDenominacion;
+		representante:unRepresentate;
+		 direccion: unaDireccion; 
+		yourself
+]
 
 { #category : #accessing }
 Organizacion >> denominacion [
@@ -31,21 +40,21 @@ Organizacion >> direccion: anObject [
 ]
 
 { #category : #accessing }
-Organizacion >> grupoDonante [
-	^ grupoDonante
+Organizacion >> donadores [
+	^ donadores
 ]
 
 { #category : #accessing }
-Organizacion >> grupoDonante: anObject [
-	grupoDonante := anObject
+Organizacion >> donadores: anObject [
+	donadores := anObject
 ]
 
 { #category : #initialization }
-Organizacion >> initialize [ 
-	denominacion :=''.
-	representante :=''.
-	direccion :=''.
-	grupoDonante := OrderedCollection new.
+Organizacion >> initialize [
+	denominacion := ''.
+	representante := ''.
+	direccion := ''.
+	donadores := OrderedCollection new
 ]
 
 { #category : #accessing }

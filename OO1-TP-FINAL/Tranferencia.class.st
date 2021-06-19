@@ -1,7 +1,7 @@
 Class {
 	#name : #Tranferencia,
 	#superclass : #Pago,
-	#category : #'OO1-TP-FINAL'
+	#category : #'OO1-TP-FINAL-Model'
 }
 
 { #category : #operations }
