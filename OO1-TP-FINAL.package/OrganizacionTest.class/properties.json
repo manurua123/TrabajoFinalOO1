@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "OO1-TP-FINAL-Test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"organizacion",
+		"donante1"
+	],
+	"name" : "OrganizacionTest",
+	"type" : "normal"
+}

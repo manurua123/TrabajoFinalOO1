@@ -1,0 +1,3 @@
+operations
+montoNeto 
+	^ tipoPago montoNeto .

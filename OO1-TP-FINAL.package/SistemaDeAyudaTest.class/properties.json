@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "OO1-TP-FINAL-Test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sistemAyuda",
+		"unCordinador",
+		"unDonante",
+		"unaOrganizcion",
+		"unaDonacion",
+		"unaDonacion2",
+		"unaDonacion3"
+	],
+	"name" : "SistemaDeAyudaTest",
+	"type" : "normal"
+}

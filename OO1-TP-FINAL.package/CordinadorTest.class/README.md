@@ -1,0 +1,1 @@
+A CordinadorTest is a test class for testing the behavior of Cordinador

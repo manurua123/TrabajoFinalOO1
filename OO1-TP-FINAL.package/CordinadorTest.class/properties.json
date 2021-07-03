@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "OO1-TP-FINAL-Test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cordinador",
+		"donacion1",
+		"donacion2",
+		"donacion3"
+	],
+	"name" : "CordinadorTest",
+	"type" : "normal"
+}

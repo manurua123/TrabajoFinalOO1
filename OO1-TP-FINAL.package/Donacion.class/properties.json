@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "OO1-TP-FINAL-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"organizacion",
+		"monto",
+		"tipoPago",
+		"donante",
+		"fecha"
+	],
+	"name" : "Donacion",
+	"type" : "normal"
+}

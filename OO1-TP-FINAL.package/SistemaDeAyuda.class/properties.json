@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "OO1-TP-FINAL-Model",
+	"classinstvars" : [
+		"soleIstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"donantes",
+		"cordinadores",
+		"organizaciones",
+		"pozoComun"
+	],
+	"name" : "SistemaDeAyuda",
+	"type" : "normal"
+}

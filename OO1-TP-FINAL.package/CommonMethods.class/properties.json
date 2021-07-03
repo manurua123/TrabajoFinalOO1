@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "OO1-TP-FINAL-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sistemaAyuda"
+	],
+	"name" : "CommonMethods",
+	"type" : "normal"
+}

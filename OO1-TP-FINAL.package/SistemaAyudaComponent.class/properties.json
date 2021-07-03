@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CommonMethods",
+	"category" : "OO1-TP-FINAL-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SistemaAyudaComponent",
+	"type" : "normal"
+}

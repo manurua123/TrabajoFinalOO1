@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CommonMethods",
+	"category" : "OO1-TP-FINAL-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"donante"
+	],
+	"name" : "DonanteComponent",
+	"type" : "normal"
+}

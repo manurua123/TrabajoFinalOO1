@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Pago",
+	"category" : "OO1-TP-FINAL-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Tranferencia",
+	"type" : "normal"
+}

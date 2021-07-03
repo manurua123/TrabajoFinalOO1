@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "OO1-TP-FINAL-Test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pagoEfectivo",
+		"pagoTranferencia",
+		"pagoPagoFacil"
+	],
+	"name" : "PagoTest",
+	"type" : "normal"
+}
