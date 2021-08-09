@@ -1,5 +1,5 @@
-as yet unclassified
-buscarDonante: unIdentifiacion
-	identifiacion  = unIdentifiacion
+accessing
+buscarDonante: unID
+	identificacion = unID
 		ifTrue: [ ^ true ].
 	^ false

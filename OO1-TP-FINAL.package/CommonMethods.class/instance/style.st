@@ -13,11 +13,10 @@ style
 	.list-item{padding:10px; text-decoration:none; color:#212121 }
 	
 	
-	.colum1{width: 25%;float: left; text-align: center; }
-	.colum2{width: 40% ;float: left; text-align: center;  }
-	.colum3{width: 20% ;float: left; text-align: center; }
-	.colum4{width: 15% ;float: left; text-align: center;margin-bottom:2em; }
 
+	.columA{width: 20% ;float: left; text-align: center;margin-bottom:2em; }
+	.columB{width: 20% ;float: left; text-align: center;margin-bottom:2em; }
+	.columC{width: 40% ;float: left; text-align: center;margin-bottom:2em; }
 	
 	.table-item{border: 1px solid #171717}
 	

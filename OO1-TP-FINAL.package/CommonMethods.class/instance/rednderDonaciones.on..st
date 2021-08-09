@@ -1,18 +1,18 @@
 as yet unclassified
 rednderDonaciones: donaciones on: aCanvas
 	aCanvas unorderedList
-		class: 'colum2 list ';
+		class: 'columA list ';
 		with: [ aCanvas heading
 				class: ' ';
 				level4;
-				with: 'Fecha'.
+				with: 'Fecha de la Donacion'.
 			donaciones
 				do: [ :d | 
 					aCanvas listItem
 						class: 'list-item ';
 						with: [ aCanvas text: d fecha ] ] ].
 	aCanvas unorderedList
-		class: 'colum3 list';
+		class: 'columA list';
 		with: [ aCanvas heading
 				class: '';
 				level4;
@@ -22,12 +22,13 @@ rednderDonaciones: donaciones on: aCanvas
 					aCanvas listItem
 						class: 'list-item ';
 						with: [ aCanvas text: d tipoPago printString ] ] ].
+
 	aCanvas unorderedList
-		class: 'colum4 list';
+		class: 'columA list';
 		with: [ aCanvas heading
 				class: '';
 				level4;
-				with: 'Monto'.
+				with: 'Valor'.
 			donaciones
 				do: [ :d | 
 					aCanvas listItem

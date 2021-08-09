@@ -1,3 +1,3 @@
 adding
 addDonante: unDonante
-	donadores add: unDonante.
+	(self donanteIn: unDonante )ifFalse: [	donadores add: unDonante  ]

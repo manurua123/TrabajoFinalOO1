@@ -5,12 +5,14 @@ setUp
 	donacion1 := Donacion
 		new: 'Comedor X'
 		monto: 1500
-		tipoPago: Tranferencia
+		tipoPago: 'Tranferencia'
 		donante: 1
+		mesDonado: 8
 		fecha: fecha.
 	donacion2 := Donacion
 		new: 'Comedor Y'
 		monto: 1000
-		tipoPago: Efectivo
+		tipoPago: 'Efectivo'
 		donante: 1
+		mesDonado: 8
 		fecha: Date today

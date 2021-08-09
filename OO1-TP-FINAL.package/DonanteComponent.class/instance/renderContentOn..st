@@ -1,12 +1,12 @@
 rendering
 renderContentOn: aCanvas
 	| donaciones |
-	donaciones := sistemaAyuda consultarPago: donante identifiacion.
+	donaciones := sistemaAyuda consultarPago: donante identificacion.
 	self renderTitulo: aCanvas.
 	aCanvas heading
 		class: '';
 		level2;
-		with: donante identifiacion printString , ' - ' , donante nombre.
+		with: donante identificacion printString , ' - ' , donante nombre.
 	aCanvas
 		text: 'DNI: ' , donante dni printString;
 		text: ' | Telefono ' , donante telefono printString;
@@ -18,8 +18,7 @@ renderContentOn: aCanvas
 		with: 'Ultimas Donaciones '.
 	donaciones
 		ifEmpty: [ aCanvas
-				text: 'El usuario todavia no realizo una donacion';
+				text: 'El usuario todavia no realizo una donacion este mes';
 				break ];
 		ifNotEmpty: [ self renderDonacion: donaciones on: aCanvas ].
-	aCanvas horizontalRule.
 	self back: aCanvas

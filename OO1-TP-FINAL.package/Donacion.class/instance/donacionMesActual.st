@@ -1,6 +1,6 @@
 private 
 donacionMesActual
-	self donacionAñoActual ifTrue: [ fecha month = Date today month
-		ifTrue: [ ^ true ] ].
-	
+	self donacionAñoActual
+		ifTrue: [ Date today monthIndex =  mesDonado
+				ifTrue: [ ^ true ] ].
 	^ false

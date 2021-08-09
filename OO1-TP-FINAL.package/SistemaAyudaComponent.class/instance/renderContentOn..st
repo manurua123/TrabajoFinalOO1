@@ -4,11 +4,34 @@ renderContentOn: aCanvas
 	aCanvas heading
 		class: '';
 		level3;
-		with: 'Ingresos Anuales:  $' , sistemaAyuda ingresosAnuales printString.
+		with: 'Ingresos Anuales: $' , sistemaAyuda ingresosAnuales printString.
 	aCanvas heading
 		class: '';
 		level3;
-		with: 'Ingresos Mensuales:  $' , sistemaAyuda ingresosMensuales printString.
+		with:
+			'Ingresos ' , Date today month printString , ': $'
+				, sistemaAyuda ingresosMensuales printString.
+	aCanvas heading
+		class: '';
+		level3;
+		with: 'Pozo Comun: $' , sistemaAyuda pozoComun printString.
+	aCanvas anchor
+		callback: [ self nuevoMiembro ];
+		with: [ aCanvas button
+				class: 'boton';
+				with: 'Nuevo Miembro' ].
+	aCanvas space.
+	aCanvas anchor
+		callback: [ self nuevaOrg ];
+		with: [ aCanvas button
+				class: 'boton';
+				with: 'Nuevo Organizacion' ].
+		aCanvas space.
+	aCanvas anchor
+		callback: [ self nuevaDonacion ];
+		with: [ aCanvas button
+				class: 'boton';
+				with: 'Realizar Donacion' ].
 	aCanvas horizontalRule.
 	aCanvas div
 		class: 'homeColum';
@@ -41,5 +64,4 @@ renderContentOn: aCanvas
 								with: [ aCanvas anchor
 										class: 'link';
 										callback: [ self showDonante: donante ];
-										with: donante nombre ] ] ] ].
-	
+										with: donante nombre ] ] ] ]

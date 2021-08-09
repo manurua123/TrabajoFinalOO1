@@ -10,6 +10,7 @@
 		"monto",
 		"tipoPago",
 		"donante",
+		"mesDonado",
 		"fecha"
 	],
 	"name" : "Donacion",

@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"identifiacion"
+		"identificacion"
 	],
 	"name" : "Donante",
 	"type" : "normal"

@@ -16,7 +16,7 @@ renderContentOn: aCanvas
 	aCanvas heading
 		level3;
 		with:
-			'Ingresos del mes: $'
+			'Ingresos ' , Date today month printString , ': $'
 				,
 					(sistemaAyuda ingresoMensualOrganizacion: organizacion denominacion)
 						printString.
@@ -26,7 +26,23 @@ renderContentOn: aCanvas
 		with: 'Donaciones de este mes: '.
 	donaciones
 		ifEmpty: [ aCanvas
-				text: 'La organizacion no ha recibido donaciones ';
+				text: 'La organizacion no ha recibido donaciones este mes ';
 				break ];
 		ifNotEmpty: [ self renderDonacion: donaciones on: aCanvas ].
+	aCanvas horizontalRule.
+	aCanvas unorderedList
+		class: 'list';
+		with: [ aCanvas heading
+				class: '';
+				level3;
+				with: 'Grupo de donadores:'.
+			organizacion donadores
+				do: [ :d | 
+					aCanvas listItem
+						class: 'list-item ';
+						with: [ aCanvas anchor
+								class: 'link';
+								callback: [ self showDonante: (sistemaAyuda buscarDonante: d) ];
+								with: (sistemaAyuda buscarDonante: d) nombre ] ] ].
+	aCanvas horizontalRule.
 	self back: aCanvas

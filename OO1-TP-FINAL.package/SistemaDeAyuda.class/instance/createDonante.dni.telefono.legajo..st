@@ -1,5 +1,5 @@
 adding
-createDonante: unNombre dni: unDni telefono: unTelefono email: unEmail legajo: unLegajo
+createDonante: unNombre dni: unDni telefono: unTelefono legajo: unLegajo
 	self
 		addDonante:
 			(Donante

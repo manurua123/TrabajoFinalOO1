@@ -1,7 +1,7 @@
 rendering
 renderDonacion: donaciones on: aCanvas
 	aCanvas unorderedList
-		class: 'colum1 list';
+		class: 'columC list';
 		with: [ aCanvas heading
 				class: '';
 				level4;
@@ -14,4 +14,4 @@ renderDonacion: donaciones on: aCanvas
 								class: 'link';
 								callback: [ self showDonante: (sistemaAyuda buscarDonante: d donante) ];
 								with: (sistemaAyuda buscarDonante: d donante) nombre ] ] ].
-		self rednderDonaciones: donaciones on: aCanvas
+	self rednderDonaciones: donaciones on: aCanvas
