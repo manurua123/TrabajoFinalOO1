@@ -3,7 +3,7 @@ accept
 	sistemaAyuda
 		realizarDonacion: donante identificacion
 		organizacion: organizacion denominacion
-		formaPago: tipoPago asSymbol
-		monto: monto asNumber 
-		mesDonado: Date today month.
+		formaPago: (self class environment at: tipoPago asSymbol)
+		monto: monto asNumber
+		mesDonado: mesDonado asNumber.
 	self answer
