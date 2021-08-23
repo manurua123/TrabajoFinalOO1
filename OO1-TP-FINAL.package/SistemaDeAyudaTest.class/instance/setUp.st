@@ -19,21 +19,21 @@ setUp
 	unaDonacion := Donacion
 		new: 'Comedor X'
 		monto: 500
-		tipoPago: 'Tranferencia'
+		tipoPago: Transferencia
 		donante: 1
 		mesDonado: 8
 		fecha: Date today.
 	unaDonacion2 := Donacion
 		new: 'Comedor X'
 		monto: 1500
-		tipoPago: 'Tranferencia'
+		tipoPago: Transferencia
 		donante: 2
 		mesDonado: 8
 		fecha: Date today.
 	unaDonacion3 := Donacion
 		new: 'Comedor X'
 		monto: 1500
-		tipoPago: 'Tranferencia'
+		tipoPago: Transferencia
 		donante: 2
 		mesDonado: 'July'
 		fecha: (Date year: 2020 month: 9 day: 10).
