@@ -31,8 +31,16 @@ renderContentOn: aCanvas
 						labels: [ :ea | ea ];
 						callback: [ :value | tipoPago := value ] ].
 			aCanvas
+				paragraph: [ aCanvas label: 'Mes a Pagar: '.
+					aCanvas select
+						list: #('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12');
+						selected: tipoPago;
+						enabled: [ :ea | ea notNil ];
+						labels: [ :ea | ea ];
+						callback: [ :value | mesDonado := value ] ].
+			aCanvas
 				paragraph: [ aCanvas label: 'Monto: $'.
-					aCanvas textInput on: #monto of: self ].
+					aCanvas numberInput on: #monto of: self ].
 			aCanvas horizontalRule.
 			aCanvas button
 				class: 'boton';
