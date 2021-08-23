@@ -4,6 +4,6 @@ new: unaOrganizacion monto: unMonto tipoPago: tipoPago donante: unDonante mesDon
 		organizacion: unaOrganizacion;
 		monto: unMonto;
 		donante: unDonante;
-		tipoPago: ((self class environment at: tipoPago asSymbol ) new: unMonto);
+		tipoPago: tipoPago new: unMonto);
 		mesDonado: unMes;
 		fecha: unaFecha yourself
